@@ -25,22 +25,38 @@ Visualizes mesh seams (real or synthetic) directly on the 3D model using Matplot
 ## 📁 Project Structure
 mixar2/
 ├── meshes/
-│ └── example.obj # Input mesh (e.g., teapot)
+│   └── example.obj                # Input mesh (e.g., teapot)
 ├── outputs/
-│ ├── normalized/ # Normalized meshes
-│ ├── quantized/ # Quantized meshes & metadata
-│ ├── reconstructed/ # Reconstructed meshes
-│ └── plots/ # Error comparison plots
+│   ├── normalized/                # Normalized meshes
+│   ├── quantized/                 # Quantized meshes & metadata
+│   ├── reconstructed/             # Reconstructed meshes
+│   └── plots/                     # Error comparison plots
 ├── src/
-│ ├── main.py # Runs all three main tasks
-│ ├── task1_load.py # Loads mesh & prints statistics
-│ ├── task2_normalize_quantize.py# Normalizes & quantizes mesh
-│ ├── task3_reconstruct_error.py # Reconstructs mesh & computes MSE
-│ ├── utils.py # Helper functions (I/O, saving, etc.)
-│ ├── seam_tokenization.py # Prototype for seam token encoding/decoding
-│ └── view_seams.py # Visualizes seams on 3D mesh
-├── requirements.txt # Dependencies
-└── README.md # (this file)
+│   ├── main.py                    # Runs all three main tasks
+│   ├── task1_load.py              # Loads mesh & prints statistics
+│   ├── task2_normalize_quantize.py# Normalizes & quantizes mesh
+│   ├── task3_reconstruct_error.py # Reconstructs mesh & computes MSE
+│   ├── utils.py                   # Helper functions (I/O, saving, etc.)
+│   ├── seam_tokenization.py       # Prototype for seam token encoding/decoding
+│   └── view_seams.py              # Visualizes seams on 3D mesh
+├── requirements.txt               # Dependencies
+└── README.md                      # (this file)
+
+
+🧩 Explanation
+
+
+The outer triple backticks (markdown ... ) tell Markdown to render everything inside as a code block.
+
+
+The inner triple backticks (```) start and end the code area itself.
+
+
+The spacing and lines (├──, │, etc.) will now stay aligned exactly as shown.
+
+
+If you want, I can give you the full corrected README.md (the entire project doc) with this fix applied — ready to paste without losing formatting.
+Would you like me to do that?
 
 
 ---
